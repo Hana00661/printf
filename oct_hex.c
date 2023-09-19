@@ -26,7 +26,7 @@ void oct_hex(unsigned int n, char format, int *count)
 
 	if (n < length)
 	{
-		_putchar(base[n % lenght], count);
+		_putchar(base[n % length], count);
 	}
 	else
 	{
